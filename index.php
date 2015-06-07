@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<title></title>
+	<title>The Web Project</title>
 	<link rel="stylesheet" href="styles.css" />
 	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 </head>
@@ -22,7 +22,7 @@
 				</ul>
 			</form>
 			<footer>
-				<p><span class="credit"> The Web Project </span></p>
+				<p><span class="credit"> Admin Launch Pad </span></p>
 			</footer>
 		</section>
 	</div>
