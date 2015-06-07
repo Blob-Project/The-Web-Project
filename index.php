@@ -31,7 +31,7 @@
 		if(isset($_POST['pass'])){
 			$pass = $_POST['pass'];
 			if($pass == "B10bisc00l"){
-				print "Welcome Chris!";
+				header('Location: http://thewebproject.comyr.com/chat.html');
 			}
 		}
 	?>
