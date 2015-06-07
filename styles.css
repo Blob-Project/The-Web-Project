@@ -80,3 +80,15 @@ input.submit{
 	display:block;
 	text-align:center;
 }
+
+/******* chat.html ********/
+
+textarea{
+	width: 100%;
+	max-width: 100%;
+	height: 150px; 
+	text-transform: uppercase;
+	box-sizing: border-box;
+	padding: 5px;
+	margin: 10px 0;
+}
