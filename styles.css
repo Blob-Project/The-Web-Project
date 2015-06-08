@@ -1,44 +1,47 @@
-html { 
-    background: #738583; 
+html,body{ 
+    background:#424242; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+	margin:0;
+}
+a{
+	color:#ADD8E6;
 }
 *{
-	font-family: Arial Narrow;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 20px;
-	color: #fff;
+	color:#828282;
 }
 .title > span{
+	font-size: 22px;
+	color:#ADADAD;
 	font-family: 'Pacifico', cursive;
 	display: block;
 	margin-right: 90px;
 }
 .title{
-	color: #fff; 
-	font-family: 'Righteous', cursive; 
-	font-size: 45px; 
-	font-weight: normal; 
-	line-height: 30px; 
-	margin: 10px 0 20px; 
-	text-transform: uppercase; 
-	text-shadow: 2px 2px 0 #000;
-	margin: 10px 0 24px; 
-	text-align: center;
+	color:#4D4D4D; 
+	font-family:'Righteous', cursive; 
+	font-size:48px; 
+	font-weight:normal; 
+	line-height:30px; 
+	margin:10px 0 20px; 
+	text-transform:uppercase; 
+	text-shadow:2px 2px 0 #000;
+	margin:10px 0 24px; 
+	text-align:center;
 }
 #wrapper{
-	background: #354343;
+	background:#515b5e;
 	border: 2px solid #cdc;
 	border-radius: 5px;
 	display: block;
 	margin: auto;
 	padding: 20px 20px 5px 20px;
 	width: 325px;
-	
-	-webkit-box-shadow: 1px 2px 24px -2px rgba(51,102,0,1);
-	-moz-box-shadow: 1px 2px 24px -2px rgba(51,102,0,1);
-	box-shadow: 1px 2px 24px -2px rgba(51,102,0,1);
+	opacity:0.8;
 }
 header > h1{
 	text-align: center;	
@@ -47,7 +50,7 @@ header > h1{
 hr{
 	width:100%;
 	height:1px;
-	background-color:#777777;
+	background-color:#A1A3A4;
 }
 ul, li{
 	list-style: none;
@@ -72,8 +75,7 @@ input.submit{
 	background: none;
 }
 .submit:hover {
-	color: #000;
-	box-shadow: 1px 2px 24px -2px rgba(51,102,0,1) inset;
+	color:#000;
 	cursor: pointer;
 }
 .credit{
@@ -85,11 +87,42 @@ input.submit{
 /******* chat.html ********/
 
 textarea{
-	width: 100%;
-	max-width: 100%;
-	height: 150px; 
-	text-transform: uppercase;
-	box-sizing: border-box;
-	padding: 5px;
-	margin: 10px 0;
+	width:100%;
+	max-width:100%;
+	height:150px; 
+	text-transform:uppercase;
+	box-sizing:border-box;
+	padding:5px;
+	margin:10px 0;
 }
+.navigation{
+	height: 57px;
+	width:100%;
+	background:#232323;
+	opacity:0.6;
+	border-bottom: 6px solid #3E4447;
+}
+.navButton{
+	display:inline-block;	
+	float:right;
+	margin-top:10px;
+}
+.navigation  a{
+	font-size: 14px;
+	color: #fff;
+	padding: 5px 20px;
+	border-radius: 4px;
+	display:block;
+	width:auto;
+	background-color: #82b440;
+	margin-right:20px;
+	box-shadow: 0 2px 0 #6f9a37;
+	cursor: pointer;
+	line-height: 1.5;
+	
+  
+}
+.clear{
+	clear:both;
+}
+

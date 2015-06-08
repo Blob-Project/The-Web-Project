@@ -19,6 +19,7 @@
 				<ul>
 					<li><input type="password" name="pass" placeholder="Password" /></li>
 					<li><input type="submit" name="login" class="submit" value="Log In" /></li>
+					
 				</ul>
 			</form>
 			<footer>
