@@ -1,0 +1,13 @@
+// signup
+
+	if(isset($_POST['pass']) && isset($_POST['email'])){
+		$pass = $_POST['pass'];
+		$email = $_POST['email'];
+		
+		if(strlen($pass) > 4){
+			$sql = "INSERT INTO hack (email, password) VALUES ('$email', '$pass')";
+			if (mysqli_query($con, $sql)) {
+				header("Location: http://thewebproject.hostei.com/chat.html");
+			}
+		}
+	}
